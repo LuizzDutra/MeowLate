@@ -1,5 +1,5 @@
 # MeowLate
-Inspired by a youtube comment i made a amateur Meowsynth translator/Lyrics creator
+Inspired by a youtube comment, I made a amateur Meowsynth translator/Lyrics creator.
 
 Put the meowLate file where your lyrics text file is, open it and type the name of the file (wih extension).
 
