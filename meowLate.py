@@ -13,6 +13,7 @@ resultFile = open("result.txt", "wt")
 
 #gets the lyrics
 fileText = file.read()
+file.close()
 
 punctuationList = [" ", "!", "\n", "?", ",", ".", "(", ")", "[", "]", "{", "}", ";", ":", "/", "+", "-", "_", "="]
 
@@ -51,6 +52,7 @@ for index in range(len(fileText)):
             writeString += i
         
 resultFile.write(writeString)
+resultFile.close()
 
 #pause
 input()
